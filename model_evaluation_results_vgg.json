@@ -1,0 +1,990 @@
+{
+    "apple_pie": {
+        "model_used": "vgg_model_1",
+        "accuracy": 0.9435,
+        "precision": 0.9623,
+        "recall": 0.9,
+        "f1_score": 0.9301,
+        "true_positive": 153,
+        "false_positive": 6,
+        "false_negative": 17,
+        "true_negative": 231,
+        "confusion_matrix_full": [
+            [
+                153,
+                12,
+                5
+            ],
+            [
+                6,
+                158,
+                6
+            ],
+            [
+                0,
+                3,
+                64
+            ]
+        ]
+    },
+    "Baked Potato": {
+        "model_used": "vgg_model_1",
+        "accuracy": 0.9337,
+        "precision": 0.9133,
+        "recall": 0.9294,
+        "f1_score": 0.9213,
+        "true_positive": 158,
+        "false_positive": 15,
+        "false_negative": 12,
+        "true_negative": 222,
+        "confusion_matrix_full": [
+            [
+                153,
+                12,
+                5
+            ],
+            [
+                6,
+                158,
+                6
+            ],
+            [
+                0,
+                3,
+                64
+            ]
+        ]
+    },
+    "burger": {
+        "model_used": "vgg_model_1",
+        "accuracy": 0.9656,
+        "precision": 0.8533,
+        "recall": 0.9552,
+        "f1_score": 0.9014,
+        "true_positive": 64,
+        "false_positive": 11,
+        "false_negative": 3,
+        "true_negative": 329,
+        "confusion_matrix_full": [
+            [
+                153,
+                12,
+                5
+            ],
+            [
+                6,
+                158,
+                6
+            ],
+            [
+                0,
+                3,
+                64
+            ]
+        ]
+    },
+    "butter_naan": {
+        "model_used": "vgg_model_2",
+        "accuracy": 0.8883,
+        "precision": 0.803,
+        "recall": 0.8548,
+        "f1_score": 0.8281,
+        "true_positive": 53,
+        "false_positive": 13,
+        "false_negative": 9,
+        "true_negative": 122,
+        "confusion_matrix_full": [
+            [
+                53,
+                0,
+                9
+            ],
+            [
+                0,
+                68,
+                1
+            ],
+            [
+                13,
+                3,
+                50
+            ]
+        ]
+    },
+    "chai": {
+        "model_used": "vgg_model_2",
+        "accuracy": 0.9797,
+        "precision": 0.9577,
+        "recall": 0.9855,
+        "f1_score": 0.9714,
+        "true_positive": 68,
+        "false_positive": 3,
+        "false_negative": 1,
+        "true_negative": 125,
+        "confusion_matrix_full": [
+            [
+                53,
+                0,
+                9
+            ],
+            [
+                0,
+                68,
+                1
+            ],
+            [
+                13,
+                3,
+                50
+            ]
+        ]
+    },
+    "chapati": {
+        "model_used": "vgg_model_2",
+        "accuracy": 0.868,
+        "precision": 0.8333,
+        "recall": 0.7576,
+        "f1_score": 0.7937,
+        "true_positive": 50,
+        "false_positive": 10,
+        "false_negative": 16,
+        "true_negative": 121,
+        "confusion_matrix_full": [
+            [
+                53,
+                0,
+                9
+            ],
+            [
+                0,
+                68,
+                1
+            ],
+            [
+                13,
+                3,
+                50
+            ]
+        ]
+    },
+    "cheesecake": {
+        "model_used": "vgg_model_3",
+        "accuracy": 0.9207,
+        "precision": 0.9102,
+        "recall": 0.8941,
+        "f1_score": 0.9021,
+        "true_positive": 152,
+        "false_positive": 15,
+        "false_negative": 18,
+        "true_negative": 231,
+        "confusion_matrix_full": [
+            [
+                152,
+                16,
+                2
+            ],
+            [
+                12,
+                150,
+                8
+            ],
+            [
+                3,
+                9,
+                64
+            ]
+        ]
+    },
+    "chicken_curry": {
+        "model_used": "vgg_model_3",
+        "accuracy": 0.8918,
+        "precision": 0.8571,
+        "recall": 0.8824,
+        "f1_score": 0.8696,
+        "true_positive": 150,
+        "false_positive": 25,
+        "false_negative": 20,
+        "true_negative": 221,
+        "confusion_matrix_full": [
+            [
+                152,
+                16,
+                2
+            ],
+            [
+                12,
+                150,
+                8
+            ],
+            [
+                3,
+                9,
+                64
+            ]
+        ]
+    },
+    "chole_bhature": {
+        "model_used": "vgg_model_3",
+        "accuracy": 0.9471,
+        "precision": 0.8649,
+        "recall": 0.8421,
+        "f1_score": 0.8533,
+        "true_positive": 64,
+        "false_positive": 10,
+        "false_negative": 12,
+        "true_negative": 330,
+        "confusion_matrix_full": [
+            [
+                152,
+                16,
+                2
+            ],
+            [
+                12,
+                150,
+                8
+            ],
+            [
+                3,
+                9,
+                64
+            ]
+        ]
+    },
+    "Crispy Chicken": {
+        "model_used": "vgg_model_4",
+        "accuracy": 0.9173,
+        "precision": 0.9153,
+        "recall": 0.9529,
+        "f1_score": 0.9337,
+        "true_positive": 162,
+        "false_positive": 15,
+        "false_negative": 8,
+        "true_negative": 93,
+        "confusion_matrix_full": [
+            [
+                162,
+                2,
+                6
+            ],
+            [
+                8,
+                49,
+                2
+            ],
+            [
+                7,
+                0,
+                42
+            ]
+        ]
+    },
+    "dal_makhani": {
+        "model_used": "vgg_model_4",
+        "accuracy": 0.9568,
+        "precision": 0.9608,
+        "recall": 0.8305,
+        "f1_score": 0.8909,
+        "true_positive": 49,
+        "false_positive": 2,
+        "false_negative": 10,
+        "true_negative": 217,
+        "confusion_matrix_full": [
+            [
+                162,
+                2,
+                6
+            ],
+            [
+                8,
+                49,
+                2
+            ],
+            [
+                7,
+                0,
+                42
+            ]
+        ]
+    },
+    "dhokla": {
+        "model_used": "vgg_model_4",
+        "accuracy": 0.946,
+        "precision": 0.84,
+        "recall": 0.8571,
+        "f1_score": 0.8485,
+        "true_positive": 42,
+        "false_positive": 8,
+        "false_negative": 7,
+        "true_negative": 221,
+        "confusion_matrix_full": [
+            [
+                162,
+                2,
+                6
+            ],
+            [
+                8,
+                49,
+                2
+            ],
+            [
+                7,
+                0,
+                42
+            ]
+        ]
+    },
+    "Donut": {
+        "model_used": "vgg_model_5",
+        "accuracy": 0.5854,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positive": 0,
+        "false_positive": 0,
+        "false_negative": 170,
+        "true_negative": 240,
+        "confusion_matrix_full": [
+            [
+                0,
+                0,
+                170
+            ],
+            [
+                0,
+                0,
+                70
+            ],
+            [
+                0,
+                0,
+                170
+            ]
+        ]
+    },
+    "fried_rice": {
+        "model_used": "vgg_model_5",
+        "accuracy": 0.8293,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positive": 0,
+        "false_positive": 0,
+        "false_negative": 70,
+        "true_negative": 340,
+        "confusion_matrix_full": [
+            [
+                0,
+                0,
+                170
+            ],
+            [
+                0,
+                0,
+                70
+            ],
+            [
+                0,
+                0,
+                170
+            ]
+        ]
+    },
+    "Fries": {
+        "model_used": "vgg_model_5",
+        "accuracy": 0.4146,
+        "precision": 0.4146,
+        "recall": 1.0,
+        "f1_score": 0.5862,
+        "true_positive": 170,
+        "false_positive": 240,
+        "false_negative": 0,
+        "true_negative": 0,
+        "confusion_matrix_full": [
+            [
+                0,
+                0,
+                170
+            ],
+            [
+                0,
+                0,
+                70
+            ],
+            [
+                0,
+                0,
+                170
+            ]
+        ]
+    },
+    "Hot Dog": {
+        "model_used": "vgg_model_6",
+        "accuracy": 0.9277,
+        "precision": 0.8653,
+        "recall": 0.9824,
+        "f1_score": 0.9201,
+        "true_positive": 167,
+        "false_positive": 26,
+        "false_negative": 3,
+        "true_negative": 205,
+        "confusion_matrix_full": [
+            [
+                167,
+                3,
+                0
+            ],
+            [
+                21,
+                146,
+                3
+            ],
+            [
+                5,
+                4,
+                52
+            ]
+        ]
+    },
+    "ice_cream": {
+        "model_used": "vgg_model_6",
+        "accuracy": 0.9227,
+        "precision": 0.9542,
+        "recall": 0.8588,
+        "f1_score": 0.904,
+        "true_positive": 146,
+        "false_positive": 7,
+        "false_negative": 24,
+        "true_negative": 224,
+        "confusion_matrix_full": [
+            [
+                167,
+                3,
+                0
+            ],
+            [
+                21,
+                146,
+                3
+            ],
+            [
+                5,
+                4,
+                52
+            ]
+        ]
+    },
+    "idli": {
+        "model_used": "vgg_model_6",
+        "accuracy": 0.9701,
+        "precision": 0.9455,
+        "recall": 0.8525,
+        "f1_score": 0.8966,
+        "true_positive": 52,
+        "false_positive": 3,
+        "false_negative": 9,
+        "true_negative": 337,
+        "confusion_matrix_full": [
+            [
+                167,
+                3,
+                0
+            ],
+            [
+                21,
+                146,
+                3
+            ],
+            [
+                5,
+                4,
+                52
+            ]
+        ]
+    },
+    "jalebi": {
+        "model_used": "vgg_model_7",
+        "accuracy": 0.6796,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positive": 0,
+        "false_positive": 0,
+        "false_negative": 58,
+        "true_negative": 123,
+        "confusion_matrix_full": [
+            [
+                0,
+                0,
+                58
+            ],
+            [
+                0,
+                0,
+                56
+            ],
+            [
+                0,
+                0,
+                67
+            ]
+        ]
+    },
+    "kaathi_rolls": {
+        "model_used": "vgg_model_7",
+        "accuracy": 0.6906,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positive": 0,
+        "false_positive": 0,
+        "false_negative": 56,
+        "true_negative": 125,
+        "confusion_matrix_full": [
+            [
+                0,
+                0,
+                58
+            ],
+            [
+                0,
+                0,
+                56
+            ],
+            [
+                0,
+                0,
+                67
+            ]
+        ]
+    },
+    "kadai_paneer": {
+        "model_used": "vgg_model_7",
+        "accuracy": 0.3702,
+        "precision": 0.3702,
+        "recall": 1.0,
+        "f1_score": 0.5403,
+        "true_positive": 67,
+        "false_positive": 114,
+        "false_negative": 0,
+        "true_negative": 0,
+        "confusion_matrix_full": [
+            [
+                0,
+                0,
+                58
+            ],
+            [
+                0,
+                0,
+                56
+            ],
+            [
+                0,
+                0,
+                67
+            ]
+        ]
+    },
+    "kulfi": {
+        "model_used": "vgg_model_8",
+        "accuracy": 0.7362,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positive": 0,
+        "false_positive": 0,
+        "false_negative": 43,
+        "true_negative": 120,
+        "confusion_matrix_full": [
+            [
+                0,
+                0,
+                43
+            ],
+            [
+                0,
+                0,
+                55
+            ],
+            [
+                0,
+                0,
+                65
+            ]
+        ]
+    },
+    "masala_dosa": {
+        "model_used": "vgg_model_8",
+        "accuracy": 0.6626,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positive": 0,
+        "false_positive": 0,
+        "false_negative": 55,
+        "true_negative": 108,
+        "confusion_matrix_full": [
+            [
+                0,
+                0,
+                43
+            ],
+            [
+                0,
+                0,
+                55
+            ],
+            [
+                0,
+                0,
+                65
+            ]
+        ]
+    },
+    "momos": {
+        "model_used": "vgg_model_8",
+        "accuracy": 0.3988,
+        "precision": 0.3988,
+        "recall": 1.0,
+        "f1_score": 0.5702,
+        "true_positive": 65,
+        "false_positive": 98,
+        "false_negative": 0,
+        "true_negative": 0,
+        "confusion_matrix_full": [
+            [
+                0,
+                0,
+                43
+            ],
+            [
+                0,
+                0,
+                55
+            ],
+            [
+                0,
+                0,
+                65
+            ]
+        ]
+    },
+    "omelette": {
+        "model_used": "vgg_model_9",
+        "accuracy": 0.8024,
+        "precision": 0.7804,
+        "recall": 0.9824,
+        "f1_score": 0.8698,
+        "true_positive": 167,
+        "false_positive": 47,
+        "false_negative": 3,
+        "true_negative": 36,
+        "confusion_matrix_full": [
+            [
+                167,
+                0,
+                3
+            ],
+            [
+                24,
+                0,
+                5
+            ],
+            [
+                23,
+                0,
+                31
+            ]
+        ]
+    },
+    "paani_puri": {
+        "model_used": "vgg_model_9",
+        "accuracy": 0.8854,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positive": 0,
+        "false_positive": 0,
+        "false_negative": 29,
+        "true_negative": 224,
+        "confusion_matrix_full": [
+            [
+                167,
+                0,
+                3
+            ],
+            [
+                24,
+                0,
+                5
+            ],
+            [
+                23,
+                0,
+                31
+            ]
+        ]
+    },
+    "pakode": {
+        "model_used": "vgg_model_9",
+        "accuracy": 0.8775,
+        "precision": 0.7949,
+        "recall": 0.5741,
+        "f1_score": 0.6667,
+        "true_positive": 31,
+        "false_positive": 8,
+        "false_negative": 23,
+        "true_negative": 191,
+        "confusion_matrix_full": [
+            [
+                167,
+                0,
+                3
+            ],
+            [
+                24,
+                0,
+                5
+            ],
+            [
+                23,
+                0,
+                31
+            ]
+        ]
+    },
+    "pav_bhaji": {
+        "model_used": "vgg_model_10",
+        "accuracy": 0.3697,
+        "precision": 0.3697,
+        "recall": 1.0,
+        "f1_score": 0.5398,
+        "true_positive": 61,
+        "false_positive": 104,
+        "false_negative": 0,
+        "true_negative": 0,
+        "confusion_matrix_full": [
+            [
+                61,
+                0,
+                0
+            ],
+            [
+                55,
+                0,
+                0
+            ],
+            [
+                49,
+                0,
+                0
+            ]
+        ]
+    },
+    "pizza": {
+        "model_used": "vgg_model_10",
+        "accuracy": 0.6667,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positive": 0,
+        "false_positive": 0,
+        "false_negative": 55,
+        "true_negative": 110,
+        "confusion_matrix_full": [
+            [
+                61,
+                0,
+                0
+            ],
+            [
+                55,
+                0,
+                0
+            ],
+            [
+                49,
+                0,
+                0
+            ]
+        ]
+    },
+    "samosa": {
+        "model_used": "vgg_model_10",
+        "accuracy": 0.703,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positive": 0,
+        "false_positive": 0,
+        "false_negative": 49,
+        "true_negative": 116,
+        "confusion_matrix_full": [
+            [
+                61,
+                0,
+                0
+            ],
+            [
+                55,
+                0,
+                0
+            ],
+            [
+                49,
+                0,
+                0
+            ]
+        ]
+    },
+    "Sandwich": {
+        "model_used": "vgg_model_11",
+        "accuracy": 0.9103,
+        "precision": 0.8303,
+        "recall": 0.8059,
+        "f1_score": 0.8179,
+        "true_positive": 137,
+        "false_positive": 28,
+        "false_negative": 33,
+        "true_negative": 482,
+        "confusion_matrix_full": [
+            [
+                137,
+                3,
+                24,
+                6
+            ],
+            [
+                3,
+                159,
+                6,
+                2
+            ],
+            [
+                9,
+                9,
+                144,
+                8
+            ],
+            [
+                16,
+                16,
+                38,
+                100
+            ]
+        ]
+    },
+    "sushi": {
+        "model_used": "vgg_model_11",
+        "accuracy": 0.9426,
+        "precision": 0.8503,
+        "recall": 0.9353,
+        "f1_score": 0.8908,
+        "true_positive": 159,
+        "false_positive": 28,
+        "false_negative": 11,
+        "true_negative": 482,
+        "confusion_matrix_full": [
+            [
+                137,
+                3,
+                24,
+                6
+            ],
+            [
+                3,
+                159,
+                6,
+                2
+            ],
+            [
+                9,
+                9,
+                144,
+                8
+            ],
+            [
+                16,
+                16,
+                38,
+                100
+            ]
+        ]
+    },
+    "Taco": {
+        "model_used": "vgg_model_11",
+        "accuracy": 0.8618,
+        "precision": 0.6792,
+        "recall": 0.8471,
+        "f1_score": 0.7539,
+        "true_positive": 144,
+        "false_positive": 68,
+        "false_negative": 26,
+        "true_negative": 442,
+        "confusion_matrix_full": [
+            [
+                137,
+                3,
+                24,
+                6
+            ],
+            [
+                3,
+                159,
+                6,
+                2
+            ],
+            [
+                9,
+                9,
+                144,
+                8
+            ],
+            [
+                16,
+                16,
+                38,
+                100
+            ]
+        ]
+    },
+    "Taquito": {
+        "model_used": "vgg_model_11",
+        "accuracy": 0.8735,
+        "precision": 0.8621,
+        "recall": 0.5882,
+        "f1_score": 0.6993,
+        "true_positive": 100,
+        "false_positive": 16,
+        "false_negative": 70,
+        "true_negative": 494,
+        "confusion_matrix_full": [
+            [
+                137,
+                3,
+                24,
+                6
+            ],
+            [
+                3,
+                159,
+                6,
+                2
+            ],
+            [
+                9,
+                9,
+                144,
+                8
+            ],
+            [
+                16,
+                16,
+                38,
+                100
+            ]
+        ]
+    }
+}
